@@ -1,10 +1,11 @@
-# Jenkins job 'jobdsl-seedrepo' - a Seed Job
+# Jenkins job 'Seed jobs'
 
 ## Function: Auto-populating Jenkins with pipeline jobs
 
+- 'Seed jobs' is a seed job
 - it uses job-dsl-plugin Jenkins plugin
   ref: https://github.com/jenkinsci/job-dsl-plugin/wiki
-- pipeline jobs are defined in *.groovy files
+- pipeline jobs to be created are defined in *.groovy files
 - written in Job DSL Commands ref: https://github.com/jenkinsci/job-dsl-plugin/wiki/Job-DSL-Commandshttps://github.com/jenkinsci/job-dsl-plugin/wiki/Job-DSL-Commands
 - Jenkinsfile include all *.groovy files going to be created as pipeline jobs
 - when this seed job is run, it will create 'pl-20725-php-new' and others (*.groovy) pipeline jobs
